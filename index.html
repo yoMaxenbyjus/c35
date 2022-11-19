@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // La configuración de firebase de tu aplicación web
+  const firebaseConfig = {
+  apiKey: "AIzaSyB_Hhzzc6u1OIYDgcGHMhqC9u60nFtlzcs",
+  authDomain: "proyecto-balon.firebaseapp.com",
+  databaseURL: "https://proyecto-balon-default-rtdb.firebaseio.com",
+  projectId: "proyecto-balon",
+  storageBucket: "proyecto-balon.appspot.com",
+  messagingSenderId: "628506395925",
+  appId: "1:628506395925:web:054d2d6c0e337bc5d0151c"
+};
+
+  // Inicia Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
